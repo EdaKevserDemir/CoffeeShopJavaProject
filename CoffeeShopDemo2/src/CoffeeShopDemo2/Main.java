@@ -15,11 +15,11 @@ public class Main {
 		
 		CustomerService customerService=new NeroCustomerManager(new HibernateCustomerRepository());
 		
-		Customer customer1=new Customer(1,"Gonca","Bal","13510471338",1994);
+		Customer customer1=new Customer(1,"Gonca","Bal","11111111111",1994);
 		Customer customer2=new Customer(2,"eda","demir","5112348792",1993);
 		
 		CustomerService customerService1= new StarbucksCustomerManager( new HibernateCustomerRepository(),new MernisServiceAdapter());
-		Customer customer3=new Customer(2,"EDA KEVSER","demir","23125506240",1993);
+		Customer customer3=new Customer(2,"EDA KEVSER","demir","22222222222",1993);
 		
 		
 		customerService1.add(customer1);
